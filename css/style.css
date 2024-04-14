@@ -24,7 +24,9 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-
+p {
+    font-size: 1rem;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -147,6 +149,63 @@ gap: 35px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     display: none;
     cursor: pointer;
+}
+/*filter*/
+.filter-bar {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: auto;
+}
+
+.div-filters {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.filter {
+    border: solid 2px var(--main-bg-color);
+    background-color: white;
+    border-radius: 25px;
+    padding: 4px 19px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.filter i {
+    font-size: 1.3rem;
+}
+
+.span-filters {
+    padding-left: 10px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.filter:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.info-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-icon-info {
+    width: 24px;
+    height: 24px;
+    border: solid 1px var(--main-bg-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-info {
+    font-size: 0.6rem;
 }
 
 .card {
