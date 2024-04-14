@@ -24,9 +24,13 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
-p {
-    font-size: 1rem;
+main {
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
+
 a {
     color: inherit;
     text-decoration: none;
@@ -187,13 +191,11 @@ gap: 35px;
 .filter:hover {
     background-color: var(--filter-bg-color);
 }
-
-.info-bar {
-    display: flex;
-    align-items: center;
+.info-bar{
+display:flex;
+align-items: center;
     gap: 10px;
 }
-
 .div-icon-info {
     width: 24px;
     height: 24px;
@@ -203,6 +205,9 @@ gap: 35px;
     justify-content: center;
     align-items: center;
 }
+
+
+
 
 .fa-info {
     font-size: 0.6rem;
