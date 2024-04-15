@@ -16,17 +16,19 @@
 
 <body>
     <div class="main-container">
+        <!--Header-->
         <header>
-            <div class="div-logo-h" >
-                <img src="./images/logo/Booki.png" alt="logo-Booki" class="logo-h">
+            <div class="div-logo-h">
+                <img src="images/logo/Booki.png" alt="logo-booki" class="logo-h">
             </div>
             <nav>
-                <a href="#hebergement" class="link-nav">Hébergements</a>
-                <a href="#activites" class="link-nav">Activites</a>
+                <a href="#hebergements" class="link-nav">Hébergements</a>
+                <a href="#activites" class="link-nav">Activités</a>
             </nav>
         </header>
+
         <main>
-            <!--Section-->
+            <!--Info-group Section-->
             <section class="info">
                 <div class="headlin">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -34,12 +36,10 @@
                 </div>
                 <div class="search-bar">
                     <div class="search-pt1">
-                        <i class="fa-solid fa-location-dot" id="icon"></i>
+                        <i class="fa-solid fa-location-dot" id="icon-location"></i>
                     </div>
                         <form action="#" method="post" class="form-search">
-                            <input type="text" class="input-search" value="Marseille, France">
-                            <input type="submit" value="Rechercher" class="btn-rechercher">
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="input-search" value="Marseille, France"><input type="submit" value="Rechercher" class="btn-rechercher"><i class="fa-solid fa-magnifying-glass"></i>
                         </form>
                 </div>
                 <div class="filter-bar">
@@ -63,20 +63,21 @@
                         </button>
                     </div>
                 </div>
-                    <div class="info-bar">
-                        <div class="div-icon-info">
-                            <i class="fa-solid fa-info"></i>
-                        </div>
-                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                <div class="info-bar">
+                    <div class="div-icon-info">
+                        <i class="fa-solid fa-info"></i>
                     </div>
-                
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+            </section>
+
                 
             <div class="hebergements-and-populaires">
                 <section id="hebergements">
                     <h2>Hébergements à Marseille</h2>
-                    <div class="hebe">
+                    <div class=" heb ">
                        <a href="#" class="card-heb">
-                           <article class="cadr heb-cadr" >
+                           <article class="heb-cadr" >
                                <img src="./images/hebergements/fred-kleber.jpg" alt="l'hôtel du port" class="img-cad img-heb">
                                <div class="card-content-heb" >                     <div class="cadr-t">
                                <h3 class="card-title">Hôtel du port</h3>
@@ -84,12 +85,12 @@
                              </div>
                            </article>
                        </a>
-                    </div>
-                    <a href="#" class="link-card-heb">
-                        <article class="card heb-card">
+                    
+                    <a href="#" class="card-heb">
+                        <article class="heb-card">
                             <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel Chez Amina" class="img-card img-heb">
                             <div class="card-content-heb">
-                                <div class="card-txt">
+                                <div class="card-t">
                                     <h3 class="card-title">Hôtel Chez Amina</h3>
                                     <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
                                 </div>
@@ -104,11 +105,11 @@
                             </div>
                         </article>
                     </a>
-                    <a href="#" class="link-card-heb">
-                        <article class="card heb-card">
+                    <a href="#" class="card-heb">
+                        <article class="heb-card">
                             <img src="./images/hebergements/reisetopia.jpg" alt="Image de la chambre d'hôtel Les Mouettes" class="img-card img-heb">
                             <div class="card-content-heb">
-                                <div class="card-txt">
+                                <div class="card-t">
                                     <h3 class="card-title">Hôtel Les Mouettes</h3>
                                     <p class="card-subtitle">Nuit à partir de 76<span class="euro">€</span></p>
                                 </div>
@@ -123,13 +124,14 @@
                             </div>
                         </article>
                     </a>
+                    </div>
                
-                <div class="heb-layer heb-layer-2">
-                    <a href="#" class="link-card-heb">
-                        <article class="card heb-card">
+                <div class="heb heb-2">
+                    <a href="#" class="card-heb">
+                        <article class="heb-card">
                             <img src="./images/hebergements/annie-spratt.jpg" alt="Image de la chambre d'hôtel de la mer" class="img-card img-heb">
                             <div class="card-content-heb">
-                                <div class="card-txt">
+                                <div class="card-t">
                                     <h3 class="card-title">Hôtel de la mer</h3>
                                     <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
                                 </div>
@@ -144,11 +146,11 @@
                             </div>
                         </article>
                     </a>
-                    <a href="#" class="link-card-heb">
-                        <article class="card heb-card">
+                    <a href="#" class="card-heb">
+                        <article class="heb-card">
                             <img src="./images/hebergements/marcus-loke.jpg" alt="Image de la chambre d'hôtel La Canebière" class="img-card img-heb">
                             <div class="card-content-heb">
-                                <div class="card-txt">
+                                <div class="card-t">
                                     <h3 class="card-title">Hôtel La Canebière</h3>
                                     <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                 </div>
@@ -163,11 +165,11 @@
                             </div>
                         </article>
                     </a>
-                    <a href="#" class="link-card-heb">
-                        <article class="card heb-card">
+                    <a href="#" class="card-heb">
+                        <article class="heb-card">
                             <img src="./images/hebergements/nicate-lee.jpg" alt="Image de la chambre d'hôtel Le Panier" class="img-card img-heb">
                             <div class="card-content-heb">
-                                <div class="card-txt">
+                                <div class="card-t">
                                     <h3 class="card-title">Hôtel Le Panier</h3>
                                     <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
                                 </div>
@@ -185,11 +187,8 @@
                 </div>
                 <a href="#" class="afficher-plus">Afficher plus</a>
             </section>
-
-            <!--Populaire Section-->
-
-                </section>
-                <section class="populaires">
+                <!--Populaire Section-->
+                <section id="populaires">
                     <div class="populaires-title">
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
@@ -254,10 +253,7 @@
                         </a>
                     </div>
                 </section>
-            </div>
-        </main>
-        <footer></footer>
-    </div>
-</body>
+            </main>
 
-</html>
+        </boody>
+        </html>
