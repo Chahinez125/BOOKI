@@ -42,6 +42,9 @@ main {
     margin: 0;
     font-size: 22px;
 }
+.h3 {
+    font-size: 1.1rem;
+}
 /****** Header ***********/
 
 header{
@@ -373,6 +376,19 @@ align-items: center;
 .activite-title {
     padding: 20px 19px;
 }
+/*footer*/
+
+.footer{
+    display:  flex;
+    margin: 45px 50px 0 50px;
+    background-color: #F2F2F2;
+}
+.Footer-div{
+display: flex;
+flex-direction: column;
+gap: 15px;
+width: 29%;
+padding: 20px;}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
