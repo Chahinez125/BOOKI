@@ -75,7 +75,7 @@ header {
 
 header img {
     height: 100%;
-    padding: 30px 50px;
+    padding: 30px 0px;
     box-sizing: border-box;
    
 }
@@ -83,7 +83,7 @@ header img {
 nav {
     display: flex;
     box-sizing: border-box;
-    padding: 0 50px;
+    /*padding: 0 50px;*/
     height: 35px;
     gap: 68px;
     align-items: end;
