@@ -175,8 +175,8 @@
     #recherche {
         border-right: none;
         text-align: start;
-        width: 180px;
-        /*padding: 0 80px 0 5px;*/
+        width: 170px;
+        padding: 0 20px 0 5px;
     }
    .btn-search{
 width: auto;
