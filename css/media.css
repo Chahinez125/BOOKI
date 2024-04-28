@@ -109,7 +109,7 @@
 /* Small devices (phones, less than 768px) */
 
 
-@media(max-width: 767px) {
+@media(max-width: 767.98px) {
 
     /*.main {
         padding: 0;
@@ -169,14 +169,16 @@
     
     form {
         display: flex;
-        height : 49px;
+       /* height : 49px;*/
+       height: 100%;
+        width: 100%;
     }
   
     #recherche {
         border-right: none;
         text-align: start;
-        width: 170px;
-        padding: 0 20px 0 5px;
+        width: 100%;
+       
     }
    .btn-search{
 width: auto;
