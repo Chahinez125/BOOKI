@@ -156,6 +156,7 @@ form{
     font-weight: 700;
     border: solid 1px #F2F2F2;
     text-indent: 24px;
+    
   }
   
   .btn-search{
@@ -169,8 +170,9 @@ form{
     border: solid 1px #0065FC;
     border-radius: 0 15px 15px 0;
   }
-  
-  #loupe {
+  .placeholder::placeholder{
+color: black;}
+     #loupe {
     display: none;
   }
 
